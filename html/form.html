@@ -6,5 +6,53 @@
 	</head>
 	<body>
 
+		<h1>Simple Form</h1>
+
+		<form name="form_test" action="#" method="POST" target="_blank">
+			<label>First name</label>
+			<br/>
+			<input type="text" name="f_name" placeholder="Ex: Dennis" required>
+			<br/>
+
+			<label>Last name</label>
+			<br/>
+			<input type="text" name="l_name" placeholder="Ex: Ritchie" required>
+			<br/>
+
+			<label>Are you a CS student?</label>
+			<br/>
+			<input type="radio" name="student" value="Y" checked>
+			<label for="y_student">Yes</label>
+			<br/>
+			<input type="radio" name="student" value="N">
+			<label for="n_student">No</label>
+			<br/>
+
+			<label>Language:</label>
+			<select id="lang" name="lang">
+				<option value="english">English</option>
+				<option value="portuguese">Portuguese</option>
+				<option value="german">German</option>
+				<option value="spanish">Spanish</option>
+				<option value="french">French</option>
+			</select>
+			<br/>
+
+			<label for="motives">Why do you want to learn C?</label>
+			<br/>
+			<textarea name="message" rows="10" cols="50"></textarea>
+			<br/>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" placeholder="user@example.com">
+			<br/>
+
+			<label for="psswd">Password:</label>
+			<input type="password" name="psswd" placeholder="*****">
+			<br/>
+
+			<input type="submit" name="Submit">
+		</form>
+
 	</body>
 </html>
