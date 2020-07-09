@@ -1,0 +1,36 @@
+.box {
+	height: 200px;
+	width:200px;
+	line-height: 200px;
+	text-align: center;
+}
+
+.first_box {
+	background-color: #00CED1;
+	position: absolute;
+	right: 0;
+}
+
+.second_box {
+	background-color: #DA70D6;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.third_box {
+	background-color: #F0E68C;
+	position: absolute;
+}
+
+.minibox {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	background-color: #F5F5DC;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

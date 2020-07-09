@@ -1,0 +1,39 @@
+body {
+	padding-top: 155px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 50%;
+	border-bottom: 1px solid grey;
+	margin-bottom: 30px;
+	background-color: #FFF;
+}
+
+.header-logo {
+	height: 120px;
+	transform: translateX(-50%);
+}
+
+.button {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #8B0000;
+}
+
+p {
+	margin-bottom: 20px;
+}
