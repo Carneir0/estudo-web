@@ -1,0 +1,65 @@
+.header {
+	background-color: #111;
+	height: 5em;
+	color: #EEE;
+	opacity: 0.9;
+	position: absolute;
+}
+
+#logo {
+	height: 4em;
+	margin-left: 4em;
+	margin-top: 0.7em;
+	cursor: pointer;
+}
+
+.menu {
+	line-height: 5em;
+	text-align: right;
+}
+
+.menu a {
+	padding: 1em;
+	margin-right: 2em;
+	text-decoration: none;
+	color: #DDD;
+}
+
+.menu a:hover {
+	background-color: #444;
+}
+
+.intro {
+	background-image: url(../img/building.jpg);
+	background-size: 100%;
+	height: 37em;
+	border: 0;
+	padding: 10em 0 0 0;
+	line-height: 36em;
+}
+
+.efeito {
+	height: 16em;
+	background-color: rgba(1,1,1,0.5);
+}
+
+.intro_text {
+	color: #DDD;
+	text-align: center;
+	text-shadow: 1px 1px 1px #111;
+	height: 16em;
+}
+
+.sobre {
+	text-align: center;
+	margin-top: 3.5em;
+
+}
+
+.footer {
+	background-color: #111;
+	color: #DDD;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+}
