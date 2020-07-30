@@ -80,10 +80,17 @@ body {
 	margin-bottom: 4em;
 }
 
+.text-media {
+	padding: 2.5em 0 1em 0;
+}
+
 .footer {
 	background-color: #111;
 	color: #DDD;
-	height: 4em;
-	line-height: 4em;
-	text-align: center;
+	height: 5em;
+	text-align:center;
+}
+
+.footer p {
+	padding-top: 1.8em;
 }
