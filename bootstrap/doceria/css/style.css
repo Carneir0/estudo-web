@@ -1,0 +1,54 @@
+body {
+	background-color: #929292;
+}
+
+.header {
+	margin-top: 3em;
+	color: #FFFFFF;
+	position: absolute;
+}
+
+.header-right {
+	text-align: right;
+}
+
+.header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header li {
+	display: inline;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+.header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 1em;
+	border-radius: 50px;
+}
+
+.header a:hover {
+	background-color: #b43d5f;
+}
+
+.intro {
+	height: 41em;
+	background-image: url("../img/cake.jpg");
+	background-size: 100%;
+}
+
+.produtos {
+	background-color: #DEDEDE;
+	margin-top: 2.5em;
+}
+
+.produtos h1 {
+	color: #b43d5f;
+	text-align: center;
+	text-shadow: 1px 1px 1px #111;
+	text-decoration: underline;
+}
