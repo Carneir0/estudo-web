@@ -1,0 +1,51 @@
+body {
+	background-color: #EEF0F2;
+}
+
+.header {
+	background-color: #111;
+	height: 5em;
+	color: #EEE;
+	opacity: 0.95;
+	
+}
+
+#logo {
+	height: 4em;
+	margin-left: 4em;
+	margin-top: 0.7em;
+	cursor: pointer;
+}
+
+.menu {
+	line-height: 5em;
+	text-align: right;
+}
+
+.menu a {
+	padding: 1em;
+	margin-right: 2em;
+	text-decoration: none;
+	color: #DDD;
+}
+
+.menu a:hover {
+	background-color: #444;
+}
+
+.main {
+	text-align: center;
+	color: #EEE;
+	background-color: #141414;
+	padding: 2em;
+}
+
+.main h1 {
+	text-shadow: 1px 1px 2px #000;
+	color: #EEC643;
+}
+
+.main img {
+	width: 80%;
+	border: 2px solid #011638;
+}
