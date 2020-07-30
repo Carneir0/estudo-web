@@ -1,5 +1,5 @@
 body {
-	background-color: #EEEEEE;
+	background-color: #EEF0F2;
 }
 
 .header {
@@ -40,6 +40,11 @@ body {
 	border: 0;
 	padding: 10em 0 0 0;
 	line-height: 36em;
+}
+
+h1 {
+	color: #EEC643;
+	text-shadow: 2px 2px 2px #111;
 }
 
 .intro_text {
