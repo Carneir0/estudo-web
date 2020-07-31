@@ -47,7 +47,7 @@ body {
 }
 
 .main {
-	background-color: #DEDEDE;
+	background-color: #929292;
 	text-align: center;
 	margin-top: 2.5em;
 	padding: 2em;
@@ -63,7 +63,7 @@ body {
 
 .produtos img {
 	margin: 2em;
-	border: 5px solid #FFF; 
+	border: 5px solid #ABABAB; 
 }
 
 .descricao {
@@ -71,13 +71,13 @@ body {
 }
 
 .descricao img {
-	border: 5px solid #FFF;
+	border: 5px solid #c24a6d;
 }
 
 .descricao p {
 	margin-top: 4em;
 	padding: 0.5em;
-	background-color: #FFF;
+	background-color: #ABABAB;
 }
 
 .footer {
@@ -90,6 +90,6 @@ body {
 }
 
 .footer a {
-	color: #b43d5f;
+	color: #d06f8b;
 	text-decoration: none;
 }
