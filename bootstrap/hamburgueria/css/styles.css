@@ -1,0 +1,158 @@
+body {
+	background-color: #111;
+	/*background-image: url(../img/bg.jpg);
+	background-size: 100%;*/
+}
+
+.header {
+	height: 4.5em;
+	background-color: #000000;
+	color: #EEE;
+	opacity: 0.9;
+	position: absolute;
+}
+
+#img-logo {
+	width: 4em;
+	margin-left: 3em;
+	margin-top:0.5em;
+}
+
+.nav-bar ul {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav-bar li {
+	line-height: 4.5em;
+	display: inline;
+	padding: 0 2em;
+	font-family: Impact;
+}
+
+.nav-bar li:hover {
+	cursor: pointer;
+	color: #F2BB4F;
+}
+
+.img-intro {
+	height: 41em;
+	background-image: url(../img/burger2.jpg);
+	background-size: 100%;
+	background-position: 0 -13.8em;
+}
+
+.descricao-container {
+	background-image: url(../img/bg.jpg);
+	background-size: 100%;
+}
+
+.descricao {
+	padding-top: 5em;
+	color: #FFF;
+	text-align: center;
+
+}
+
+.descricao h1 {
+	font-family: "Lobster";
+	padding-top: 1.5em; 
+}
+
+.descricao img {
+	width: 30em;
+	margin-bottom: 5em;
+	border: 5px solid #F2BB4F;
+	box-shadow: 5px 5px 10px black;
+}
+
+.franqueado {
+	background-color: #FF0D0D;
+	background-image: url(../img/bg3.jpg);
+	height: 22em;
+	text-align: right;
+	color: #EEE;
+}
+
+.franqueado img {
+	width: 28em;
+}
+
+.franqueado h1,h2 {
+	margin-right: 2em;
+	
+	font-size: 2.5em;
+	line-height: 1.8em;
+}
+
+.franqueado h1 {
+	font-family: "Fjalla One";
+	font-size: 3em;
+}
+
+.franqueado h2 {
+	font-family: Lobster;
+}
+
+.franqueado button {
+	color: #FFF;
+	background-color: #F2BB4F;
+	margin-right: 5em;
+	font-family: Lobster;
+	box-shadow: 2px 2px 2px #C06A01;
+}
+
+.franqueado button:hover {
+	background-color: #C06A01;
+}
+
+.cardapio-container {
+	background-image: url(../img/bg2.jpg);
+	background-size: 100%;
+}
+
+.cardapio {
+	color: #FFF;
+	text-align: center;
+}
+
+.cardapio h1 {
+	font-family: Lobster;
+	padding-top: 1.2em;
+}
+
+.conteudo {
+	height: 20em;
+	background-color: #000014;
+	color: #FFF;
+	padding: 5em;
+}
+
+.conteudo h3 {
+	font-family: Impact;
+}
+
+.conteudo ul {
+	list-style-type: none;
+	padding: 0;
+	font-family: "Fjalla One";
+}
+
+.conteudo li:hover {
+	color: #F2BB4F;
+	cursor: pointer;
+
+}
+
+.footer {
+	background-color: #000;
+	height: 4em;
+	text-align: center;
+	color: #CCC;
+	position: absolute;
+}
+
+.footer p {
+	margin-top: 1.3em;
+}
